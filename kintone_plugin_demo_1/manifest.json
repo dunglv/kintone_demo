@@ -16,10 +16,10 @@
   "config": {
     "html": "html/config.html",
     "js": [
-      "https://raw.githubusercontent.com/dunglv/kintone_plugin_demo_1/dev_demo/js/config.js"
+      "https://rawgit.com/dunglv/kintone_demo/dev/kintone_plugin_demo_1/js/config.js"
     ],
     "css": [
-      "https://raw.githubusercontent.com/dunglv/kintone_plugin_demo_1/dev_demo/css/config.css"
+      "https://rawgit.com/dunglv/kintone_demo/dev/kintone_plugin_demo_1/css/config.css"
     ]
   }
 }
