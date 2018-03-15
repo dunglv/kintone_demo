@@ -1,4 +1,4 @@
-(function(PLUGIN_ID) {
+(function() {
 // 	var config = {
 //     "Number Field Code": "number_field",
 //     "Font Color": "#8bc534"
