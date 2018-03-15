@@ -1,0 +1,26 @@
+{
+  "manifest_version": 1,
+  "version": 1,
+  "type": "APP",
+  "name": { 
+ "en": "samplef plugin",
+    "ja": "サンプルプラグイン",
+    "zh": "插件的例子"
+  },
+  "description": { 
+ "en": "This is sample plugin.",
+    "ja": "これはサンプルプラグインです。",
+    "zh": "这是插件的例子"
+  },
+  "icon": "image/icon.png",
+  "config": {
+    "html": "html/config.html",
+    "js": [
+      "js/config.js"
+    ],
+    "css": [
+      "css/config.css"
+    ],
+    "required_params": ["Param1", "Param2"]
+  }
+}
