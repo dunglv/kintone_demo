@@ -1,0 +1,37 @@
+{
+    "manifest_version": 1,
+    "version": 1,
+    "type": "APP",
+    "name": {
+        "ja": "stg情報検索プラグイン(有償版)",
+        "en": "Information Search plug-in (charge)"
+    },
+    "description": {
+        "ja": "アプリの情報レコードを検索",
+        "en": "Search info records on the app"
+    },
+    "icon": "image/search-icon.png",
+    "desktop": {
+        "js": [
+            "https://js.cybozu.com/jquery/3.2.1/jquery.min.js",
+            "js/sweetalert.min.js",
+            "js/load_search_info.js"
+        ],
+        "css": [
+                "css/sweetalert.css"
+        ]
+    },
+    "config": {
+        "html": "html/index.html",
+        "js": [
+            "https://js.cybozu.com/jquery/3.2.1/jquery.min.js",
+            "js/chosen.jquery.min.js",
+            "js/config.js"
+        ],
+        "css": [
+                "css/style.css",
+                "css/chosen.css"
+        ],
+        "required_params": ["licensekey", "fieldcodes", "pluginid"]
+    }
+}

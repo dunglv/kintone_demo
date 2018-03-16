@@ -16,7 +16,7 @@
   "config": {
     "html": "html/config.html",
     "js": [
-      "https://rawgit.com/dunglv/kintone_demo/dev/kintone_plugin_demo_1/js/config.js"
+      "https://bitbucket.org/dunglv1/kintone_demo/raw/master/kintone_plugin_demo_1/js/config.js"
     ],
     "css": [
       "https://rawgit.com/dunglv/kintone_demo/dev/kintone_plugin_demo_1/css/config.css"
